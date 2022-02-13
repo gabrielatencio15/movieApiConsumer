@@ -14,14 +14,14 @@ To the right functioning you need install services of Apache and Mysql or instal
 Execute services of Apache and Mysql.
 
 ### Database 💾
-Once executed apache & mysql service you need `create database 'db'` and import `.sql file` located in folder `DB/ `. 
+Data is storaged locally to avoid databases usage.
 
 ### Test 🧪 
-To test project you need to go to the URL of the local server is usually `http://localhost/` o `http://127.0.0.1/`
+To test project you need to go to the URL of the local server is usually `http://localhost/talentTest` o `http://127.0.0.1/talentTest`
 
 #### Warning ⚠️
 **_This is an old project that contains some good development practices but can be greatly improved._**
 
 
-## License 🔥
-Copyright © 2021-present []() 🧔
+## License
+Copyright © 2022-present []() 🧔
