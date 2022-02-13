@@ -1,0 +1,131 @@
+body {
+    background-color: #9f9da7;
+    font-size: 1.6rem;
+    font-family: "Open Sans", sans-serif;
+    color: #2b3e51;
+  }
+  
+  a,
+  a:link,
+  a:visited,
+  a:active {
+    color: #3ca9e2;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+  }
+  
+  a:focus,
+  a:hover,
+  a:link:focus,
+  a:link:hover,
+  a:visited:focus,
+  a:visited:hover,
+  a:active:focus,
+  a:active:hover {
+    color: #329dd5;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+  }
+  
+  #login-form-wrap {
+    background-color: #fff;
+    width: 40%;
+    margin: 30px auto;
+    text-align: center;
+    padding: 20px 0 0 0;
+    border-radius: 4px;
+    box-shadow: 0px 30px 50px 0px rgba(0, 0, 0, 0.2);
+  }
+  
+  @media (min-width: 0px) and (max-width: 500px) {
+    #login-form-wrap {
+      width: 95%;
+    }
+    input {
+      height: 50px !important;
+    }
+  }
+  
+  @media (min-width: 501px) and (max-width: 900px) {
+    #login-form-wrap {
+      width: 70%;
+    }
+    input {
+      height: 60px !important;
+    }
+  }
+  
+  #login-form,
+  #create-user-form {
+    padding: 0 60px;
+  }
+  
+  input {
+    width: 100%;
+    height: 60px;
+    padding: 0 0 0 10px;
+    margin: 0;
+    background: rgb(233, 233, 233);
+    border: none;
+    border-radius: 0px;
+    color: black;
+    font-style: normal;
+    font-size: 16px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+  
+  input:active {
+    border: none !important;
+  }
+  
+  .validation {
+    display: none;
+    position: absolute;
+    content: " ";
+    height: 60px;
+    width: 30px;
+    right: 15px;
+    top: 0px;
+  }
+  
+  #create-account-wrap {
+    background-color: #eeedf1;
+    color: #8a8b8e;
+    font-size: 14px;
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 0 0 4px 4px;
+  }
+  
+  .input-form-label {
+    text-align: left !important;
+    font-size: 18px !important;
+  }
+  
+  .form-title {
+    padding: 20px 0px 40px 0px;
+  }
+  
+  .form-button {
+    font-size: 18px;
+    text-align: center;
+    background: rgb(186, 186, 186) !important;
+    border-radius: 30px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+  }
+  
+  .form-button:hover {
+    background-color: rgb(137, 137, 137) !important;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+  }
+  
+  .form-link {
+    cursor: pointer;
+  }
