@@ -4,11 +4,13 @@ require('views/login/registerAccountForm.php');
 
 class createUserController extends Administrator{
     
+    //This function calls the Registration form on Login.
     function registerUser()
     {
         registerUserForm();
     }
 
+    //This function validates whether the registration inputs supplies Regular Expression chain.
     function registerUserFormSubmit()
     {
         if(!Administrator::isValidRegularExpression("/^[A-Z]+$/i", $_POST["username"]))
