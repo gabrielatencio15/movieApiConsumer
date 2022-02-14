@@ -27,7 +27,7 @@ function registerUserForm()
           </p>
         </form>
         <div id="create-account-wrap">
-    <p>Have an account? <span class="form-link" onclick="GoHome()">Sign in</span><p>
+    <p>Have an account? <span class="form-link" onclick="GoHome()"><strong><u>Sign in</u></strong></span><p>
   </div>';
 
         echo $html;

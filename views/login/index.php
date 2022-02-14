@@ -22,7 +22,7 @@
           </p>
       </form>
       <div id="create-account-wrap">
-        <p>Not a member? <a onclick="RegisterNewUserForm()"><span class="form-link">Create Account</span></a><p>
+        <p>Not a member? <a onclick="RegisterNewUserForm()"><span class="form-link"><strong><u>Create Account</u></strong></span></a><p>
       </div>
   </div>
 
